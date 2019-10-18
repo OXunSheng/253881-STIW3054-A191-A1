@@ -6,7 +6,7 @@ Name: Ong Xun Sheng
 
 ## Introduction
 The instructions of this assignment are as follow:
-You are required to develop a small system using **MAVEN** and **Java** programming language. The system should be able to :
+<br>You are required to develop a small system using **MAVEN** and **Java** programming language. The system should be able to :
 1. Read data from a Github Issue page. Refer to the link below for the testing purpose.
 <br>https://github.com/STIW3054-A191/Main-Issues/issues/1
 2. Read data from a Github Wiki page. Refer to the link below for the testing purpose.
@@ -31,3 +31,9 @@ You are required to develop a small system using **MAVEN** and **Java** programm
 <br>![ExcelA](https://user-images.githubusercontent.com/38216203/67127763-8bd53780-f22c-11e9-8f27-05bafa8aed3e.PNG)
 <br>![ExcelB](https://user-images.githubusercontent.com/38216203/67127766-8d9efb00-f22c-11e9-9cfb-710444ffa234.PNG)
 <br>![ExcelC](https://user-images.githubusercontent.com/38216203/67127772-8f68be80-f22c-11e9-8834-c9980b5371a0.PNG)
+
+## UML Class Diagram
+
+## YouTube Presentation
+
+## References
