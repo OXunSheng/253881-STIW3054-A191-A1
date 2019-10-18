@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class printNotsubmitted implements Print {
 
 
-    //Overriding printData from Print
+    //Overriding printData from Print.
     @Override
     public void printData(ArrayList<Data> notSubmit) {
         System.out.printf("\nStudents who have submitted" +

@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        //Create multiple Arraylists to store different indices
+        //Create multiple Arraylists to store different indices.
         ArrayList<Integer> index = new ArrayList<Integer>();
         ArrayList<Integer> wikiIndex = new ArrayList<Integer>();
         ArrayList<Integer> unknownIndex = new ArrayList<Integer>();

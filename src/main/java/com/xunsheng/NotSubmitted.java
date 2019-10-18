@@ -6,7 +6,7 @@ public class NotSubmitted {
 
     private final ArrayList<Data> notSubmitted = new ArrayList<Data>();
 
-    //Create a new ArrayList for students who did not submit
+    //Create a new ArrayList for students who did not submit.
     public void makeNewArrayList(ArrayList<Data> wiki, ArrayList<Integer>index){
         for(int i =0; i<index.size();i++){
             notSubmitted.add(new Data(wiki.get(index.get(i)).getMatric(), wiki.get(index.get(i)).getName(), wiki.get(index.get(i)).getLink()));

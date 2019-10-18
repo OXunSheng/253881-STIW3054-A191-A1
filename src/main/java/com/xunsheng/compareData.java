@@ -6,7 +6,7 @@ import java.util.Collections;
 public class compareData {
 
 
-    //Compare data that are the same and set appropriate matric number, link and name
+    //Compare data that are the same and set appropriate matric number, link and name.
     public void compareData(ArrayList<Data> mainIssue, ArrayList <Data> wiki){
         for(int i = 0; i < mainIssue.size(); i++){
 
