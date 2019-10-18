@@ -11,7 +11,7 @@ public class Data {
 
 
 
-    //Constructor for Data from Issue Page (MainIssue).
+    //Constructor for Data from Issue Page (MainIssue)
     public Data(String column1, String column2, String column3) {
 
         this.matric = column1;

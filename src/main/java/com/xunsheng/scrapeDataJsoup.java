@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
 
 public class scrapeDataJsoup {
 
-    //Create ArrayList to store data
+    //Create ArrayList to store data.
     private final ArrayList<Data> data = new ArrayList<Data>();
 
     public void scrapeDataMI() throws IOException{

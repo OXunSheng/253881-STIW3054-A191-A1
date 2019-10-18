@@ -14,7 +14,7 @@ public class exportToExcel {
 
     public void exportExcel(ArrayList<Data>submit, ArrayList<Data>notSubmit,ArrayList<Data>unknown) throws IOException, InterruptedException {
 
-        // Create a Workbook.
+        // Create a Workbook
         Workbook workbook = new XSSFWorkbook();
 
         /* CreationHelper helps us create instances of various things like DataFormat,

@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class scrapeDataWIki {
 
-    //Create ArrayList to store data
+    //Create ArrayList to store data.
     private final ArrayList<Data> data = new ArrayList<Data>();
 
     public void scrapeDataWiki() throws IOException {
