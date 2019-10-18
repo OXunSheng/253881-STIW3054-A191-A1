@@ -6,6 +6,7 @@ import java.util.Collections;
 public class compareData {
 
 
+    //Compare data that are the same and set appropriate matric number, link and name.
     public void compareData(ArrayList<Data> mainIssue, ArrayList <Data> wiki){
         for(int i = 0; i < mainIssue.size(); i++){
 
@@ -22,6 +23,7 @@ public class compareData {
 
     }
 
+    //Get index of same element in two different arraylists and add into a new arraylist.
     public void getIndex(ArrayList<Data> mainIssue, ArrayList <Data> wiki, ArrayList<Integer>index){
         for(int i = 0; i < mainIssue.size(); i++){
 

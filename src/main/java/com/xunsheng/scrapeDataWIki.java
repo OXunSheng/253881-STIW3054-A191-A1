@@ -10,6 +10,7 @@ import java.util.ArrayList;
 
 public class scrapeDataWIki {
 
+    //Create ArrayList to store data
     private final ArrayList<Data> data = new ArrayList<Data>();
 
     public void scrapeDataWiki() throws IOException {
@@ -19,15 +20,18 @@ public class scrapeDataWIki {
 
         for(int i = 0; i<=35; i++){
 
+            //Get elements using CSS Selectors.
             Elements matric = table.select("tbody > tr:nth-child(" + i + ") > td:nth-child(2)");
             Elements name = table.select("tbody > tr:nth-child(" + i + ") > td:nth-child(3)");
 
 
+            //Assigning attributes to an object and adding the object into the ArrayList.
             data.add(new Data(matric.text(),name.text()));
 
         }
     }
 
+    //Returns the ArrayList.
     public ArrayList<Data> arrayList(){
         return data;
     }

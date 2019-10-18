@@ -12,6 +12,7 @@ import java.util.regex.Pattern;
 
 public class scrapeDataJsoup {
 
+    //Create ArrayList to store data
     private final ArrayList<Data> data = new ArrayList<Data>();
 
     public void scrapeDataMI() throws IOException{
@@ -23,12 +24,14 @@ public class scrapeDataJsoup {
         for (Element tableNum:table){
 
 
+            //Get String that is needed using regex.
             String matricTrial = tableNum.getElementsMatchingOwnText("\\d{5,6}").text();
 
             String matric;
             String link;
             String name;
 
+            //Splitting and assigning values to attributes.
             Pattern matricPattern = Pattern.compile("(\\d{5,6})");
             Pattern linkPattern = Pattern.compile("(https://github.com/[a-zA-Z0-9]+)");
             int linkIndex = matricTrial.lastIndexOf("ink");
@@ -50,6 +53,7 @@ public class scrapeDataJsoup {
 
 
 
+                //Assigning attributes to an object and adding the object into the ArrayList.
                 data.add(new Data(matric, namee, link));
 
 
@@ -59,6 +63,7 @@ public class scrapeDataJsoup {
         }
     }
 
+    //Returns the ArrayList.
     public ArrayList<Data> arrayList(){
         return data;
     }
