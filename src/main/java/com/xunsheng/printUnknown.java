@@ -7,7 +7,7 @@ public class printUnknown implements Print {
     //Overriding printData from Print
     @Override
     public void printData(ArrayList<Data> unknown) {
-        System.out.printf("\nStudents who have submitted" +
+        System.out.printf("\nStudents who have submitted but does not exist in the List of Student" +
                 "\n _____________________________________________________________________________________________________" +
                 "\n| No.  | Matric  | Name                                   | Github Link                               |" +
                 "\n|------|---------|----------------------------------------|-------------------------------------------|");

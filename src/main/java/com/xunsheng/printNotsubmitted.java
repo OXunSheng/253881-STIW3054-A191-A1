@@ -8,7 +8,7 @@ public class printNotsubmitted implements Print {
     //Overriding printData from Print.
     @Override
     public void printData(ArrayList<Data> notSubmit) {
-        System.out.printf("\nStudents who have submitted" +
+        System.out.printf("\nStudents who have not submitted" +
                 "\n _____________________________________________________________________________________________________" +
                 "\n| No.  | Matric  | Name                                   | Github Link                               |" +
                 "\n|------|---------|----------------------------------------|-------------------------------------------|");
