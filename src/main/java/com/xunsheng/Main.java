@@ -72,12 +72,12 @@ public class Main {
         //Call method to print list of student that submitted.
         submitList.printData(submit.arrayList());
 
-        ////Create printSubmitted object.
+        ////Create printNotSubmitted object.
         Print notSubmitList = new printNotsubmitted();
         //Call method to print list of student that did not submit.
         notSubmitList.printData(notsubmit.arrayList());
 
-        //Create printSubmitted object.
+        //Create printUnknown object.
         Print unknownList = new printUnknown();
         //Call method to print list of student that submitted but does not exist in the list of student.
         unknownList.printData(unknown.arrayList());
