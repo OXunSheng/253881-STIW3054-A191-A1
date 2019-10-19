@@ -33,7 +33,7 @@ The instructions of this assignment are as follow:
 <br>![ExcelC](https://user-images.githubusercontent.com/38216203/67127772-8f68be80-f22c-11e9-8834-c9980b5371a0.PNG)
 
 ## UML Class Diagram
-
+![Assignment 1 UML](https://user-images.githubusercontent.com/38216203/67143619-ce842780-f29f-11e9-928f-76f0cc9aacd5.png)
 ## YouTube Presentation
 
 ## References
