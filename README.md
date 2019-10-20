@@ -35,7 +35,7 @@ The instructions of this assignment are as follow:
 ## UML Class Diagram
 ![ASSIGNMENT1](https://user-images.githubusercontent.com/38216203/67153567-72acb380-f31e-11e9-857c-cb10001a5204.png)
 ## YouTube Presentation
-[253881-STIW3054-A191-A1](https://www.youtube.com/watch?v=h2_93VwGFGU "253881-STIW3054-A191-A1")
+[253881-STIW3054-A191-A1](https://youtu.be/_fFlGJ66BsY "253881-STIW3054-A191-A1")
 ## References
 **YouTube Link**
 <br><br>1. [Regular Expressions (Regex) Tutorial: How to Match Any Pattern of Text](https://www.youtube.com/watch?v=sa-TUpSx1JA "Regular Expressions (Regex) Tutorial: How to Match Any Pattern of Text")
