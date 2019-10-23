@@ -234,7 +234,7 @@ public class exportToExcel {
         }
 
         // Write the output to a file.
-        FileOutputStream fileOut = new FileOutputStream("D:\\Report.xlsx");
+        FileOutputStream fileOut = new FileOutputStream("Report.xlsx");
         workbook.write(fileOut);
         fileOut.close();
 
