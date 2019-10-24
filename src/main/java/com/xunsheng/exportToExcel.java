@@ -241,7 +241,7 @@ public class exportToExcel {
         //Message for processing excel file.
         System.out.println("\n\n\n"+"Generating an Excel file for the report..");
         Thread.sleep(2000);
-        System.out.println("An Excel file named 'Report' has been created in directory D.");
+        System.out.println("An Excel file named 'Report' has been generated.");
 
     }
 
